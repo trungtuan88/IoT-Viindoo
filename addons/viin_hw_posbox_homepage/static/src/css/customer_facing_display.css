@@ -1,0 +1,8 @@
+body .pos-customer_facing_display .pos-payment_info .pos-payment_info_details .pos-odoo_logo_container {
+  background-image: url(/web/static/img/viindoo_logo_inverted.png);
+  background-position: right top;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.5vw;
+  margin-top: 10%;
+}
