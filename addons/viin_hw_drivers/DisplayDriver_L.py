@@ -9,7 +9,6 @@ from odoo import http
 from odoo.addons.hw_drivers.tools import helpers
 from odoo.addons.hw_drivers.iot_handlers.drivers import DisplayDriver_L
 
-
 global DisplayDriver_L
 
 path = os.path.realpath(os.path.join(os.path.dirname(__file__), './views'))
@@ -19,7 +18,6 @@ jinja_env = jinja2.Environment(loader=loader, autoescape=True)
 jinja_env.filters["json"] = json.dumps
 
 pos_display_template = jinja_env.get_template('pos_display.html')
-
 
 def _run(self):
     while self.device_identifier != 'distant_display' and not self._stopped.isSet():

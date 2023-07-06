@@ -2,7 +2,6 @@ import serial
 
 from odoo.addons.hw_drivers.iot_handlers.drivers import SerialScaleDriver
 
-
 global SerialScaleDriver
 
 def _FnOrgrin_stop_reading_action(self, data):
