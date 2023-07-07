@@ -11,6 +11,7 @@ __base="$(basename ${__file} .sh)"
 # Recommends: antiword, graphviz, ghostscript, python-gevent, poppler-utils
 export DEBIAN_FRONTEND=noninteractive
 
+apt-get update && apt-get -y upgrade
 # set locale to en_US
 echo "set locale to en_US"
 echo "export LANGUAGE=en_US.UTF-8" >> ~/.bashrc
